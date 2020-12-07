@@ -1,0 +1,14 @@
+.greetings,
+.form {
+  display: none;
+}
+
+.showing {
+  display: block;
+}
+
+.js-clock {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

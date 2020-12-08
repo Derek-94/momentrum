@@ -50,13 +50,13 @@ function paintToDo(text){
     const li = document.createElement("li");
     const delBtn = document.createElement("button");
 
-    delBtn.value = "❌";
+    delBtn.innerText = "❌";
     
     // when delBtn is pressed... click event will happen.
     delBtn.addEventListener("click", deleteToDo);
     
     const span = document.createElement("span");
-    span.innerText = text;
+    span.innerText = text + " ";
 
     const newId = toDosArr.length + 1;
 
